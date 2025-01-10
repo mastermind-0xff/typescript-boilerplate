@@ -1,1 +1,1 @@
-export * from './lib/module-main.ts'
+export * from './lib/module-main';
