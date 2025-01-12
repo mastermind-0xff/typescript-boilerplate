@@ -19,7 +19,7 @@
     "clean:docs": "rimraf --glob docs/*",
     "clean:bundle": "npm run clean:dist && npm run clean:docs",
     "/** [ Build commands ]====================================== */": "exit 0",
-    "format": "eslint --fix && prettier . --write",
+    "format": "eslint --fix & prettier . --write",
     "lint": "eslint & prettier . --check",
     "lint:debug:diff": "echo \"Press q to exit diff\" && git diff",
     "lint:debug:prettier": "npm run format && npm run lint:debug:diff",
