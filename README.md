@@ -1,4 +1,4 @@
-# New Package Name
+# New Package Name (npn)
 
 Description goes here.
 
@@ -15,21 +15,21 @@ yarn add new-package-name
 ### Load as module
 
 ```javascript
-import { sec } from 'new-package-name';
+import { npn } from 'new-package-name';
 // or
-import { sec } from 'new-package-name/esm/';
+import { npn } from 'new-package-name/esm/';
 ```
 
 ### Load as commonjs
 
 ```javascript
-const sec = require('new-package-name').sec;
+const npn = require('new-package-name').npn;
 // or
-const sec = require('new-package-name/cjs/').sec;
+const npn = require('new-package-name/cjs/').npn;
 // or
-const { sec } = require('new-package-name');
+const { npn } = require('new-package-name');
 // or
-const { sec } = require('new-package-name/cjs/');
+const { npn } = require('new-package-name/cjs/');
 ```
 
 ## Changelog
