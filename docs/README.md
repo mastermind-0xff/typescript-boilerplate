@@ -1,48 +1,52 @@
-# module-name
+**module-name**
 
-module-name description goes here.
+***
+
+# New Package Name
+
+Description goes here.
 
 ## Installation
 
 ### Install the package
 
 ```sh
-npm install module-name
+npm install new-package-name
 # or
-yarn add module-name
+yarn add new-package-name
 ```
 
 ### Load as module
 
 ```javascript
-import { importName } from 'module-name';
+import { sec } from 'new-package-name';
 // or
-import { importName } from 'module-name/esm/';
+import { sec } from 'new-package-name/esm/';
 ```
 
 ### Load as commonjs
 
 ```javascript
-const importName = require('module-name').importName;
+const sec = require('new-package-name').sec;
 // or
-const importName = require('module-name/cjs/').importName;
+const sec = require('new-package-name/cjs/').sec;
 // or
-const { importName } = require('module-name');
+const { sec } = require('new-package-name');
 // or
-const { importName } = require('module-name/cjs/');
+const { sec } = require('new-package-name/cjs/');
 ```
 
 ## Changelog
 
 ### v0.0.1
 
-- Initial repo.
+Initial release.
 
 ## API
 
 ### Usage:
 
-usage goes here
+## Examples
 
 ## License
 
